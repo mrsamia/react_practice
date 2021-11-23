@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './App.css';
 
 function App(){
   return(
@@ -7,8 +7,8 @@ function App(){
 
 <h1>This is my first React App</h1>
 
-<div>
-  <button>Primary</button>
+<div >
+  <button className="btnn">Primary</button>
 </div>
 
 </div>
