@@ -1,14 +1,18 @@
 import React from 'react';
 
-import './App.css';
 
-function App() {
-  return (
-   
-      <h1>React Material UI</h1>
-      
-    
-  );
+function App(){
+  return(
+<div>
+
+<h1>This is my first React App</h1>
+
+<div>
+  <button>Primary</button>
+</div>
+
+</div>
+
+  )
 }
-
 export default App;
