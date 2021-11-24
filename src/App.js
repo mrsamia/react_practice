@@ -2,13 +2,17 @@ import React from 'react';
 import './App.css';
 
 function App(){
+
+  function bttn(){
+    alert("Button is clicked");
+  }
+
   return(
 <div>
-
 <h1>This is my first React App</h1>
 
 <div >
-  <button className="btnn">Primary</button>
+  <button className="btnn" onClick={bttn}>Primary</button>
 </div>
 
 </div>
