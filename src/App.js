@@ -1,22 +1,16 @@
 import React from 'react';
-import './App.css';
+
+import Button from './component/Button';
 
 function App(){
 
-  function bttn(){
-    alert("Button is clicked");
-  }
-
   return(
-<div>
-<h1>This is my first React App</h1>
+    
+    <div>
+      <Button></Button>
+    </div>
+   
+  );
 
-<div >
-  <button className="btnn" onClick={bttn}>Primary</button>
-</div>
-
-</div>
-
-  )
 }
 export default App;
